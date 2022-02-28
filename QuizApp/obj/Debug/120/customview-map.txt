@@ -1,0 +1,46 @@
+adaptive-icon;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
+adaptive-icon;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
+android.support.v7.widget.Toolbar;obj\Debug\120\res\layout\activity_main.xml
+androidx.cardview.widget.CardView;obj\Debug\120\res\layout\activity_main.xml
+background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
+background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
+bitmap;obj\Debug\120\res\drawable\splash.xml
+Button;obj\Debug\120\res\layout\selected_topic.xml
+cache-path;C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\lp\68\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\120\res\drawable\splash.xml
+color;obj\Debug\120\res\values\colors.xml
+color;obj\Debug\120\res\values\ic_launcher_background.xml
+corners;obj\Debug\120\res\drawable\roundbutton.xml
+external-cache-path;C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\lp\68\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\lp\68\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
+foreground;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
+gradient;obj\Debug\120\res\drawable\roundbutton.xml
+GridLayout;obj\Debug\120\res\layout\activity_main.xml
+ImageView;obj\Debug\120\res\layout\activity_main.xml
+ImageView;obj\Debug\120\res\layout\selected_topic.xml
+item;obj\Debug\120\res\drawable\roundbutton.xml
+item;obj\Debug\120\res\drawable\splash.xml
+item;obj\Debug\120\res\values\styles.xml
+layer-list;obj\Debug\120\res\drawable\roundbutton.xml
+layer-list;obj\Debug\120\res\drawable\splash.xml
+LinearLayout;obj\Debug\120\res\layout\activity_main.xml
+LinearLayout;obj\Debug\120\res\layout\selected_topic.xml
+padding;obj\Debug\120\res\drawable\roundbutton.xml
+path;obj\Debug\120\res\drawable\menuaction.xml
+paths;C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\lp\68\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+RelativeLayout;obj\Debug\120\res\layout\selected_topic.xml
+resources;obj\Debug\120\res\values\colors.xml
+resources;obj\Debug\120\res\values\ic_launcher_background.xml
+resources;obj\Debug\120\res\values\strings.xml
+resources;obj\Debug\120\res\values\styles.xml
+ScrollView;obj\Debug\120\res\layout\activity_main.xml
+selector;obj\Debug\120\res\drawable\roundbutton.xml
+shape;obj\Debug\120\res\drawable\roundbutton.xml
+string;obj\Debug\120\res\values\strings.xml
+stroke;obj\Debug\120\res\drawable\roundbutton.xml
+style;obj\Debug\120\res\values\styles.xml
+TextView;obj\Debug\120\res\layout\activity_main.xml
+TextView;obj\Debug\120\res\layout\selected_topic.xml
+vector;obj\Debug\120\res\drawable\menuaction.xml
+View;obj\Debug\120\res\layout\activity_main.xml
