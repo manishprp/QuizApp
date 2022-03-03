@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manish.rajpurohit\\source\\repos\\QuizApp\\QuizApp\\QuizApp.csproj": {}
+    "C:\\Users\\Manish Rajpurohit\\source\\repos\\QuizApp\\QuizApp\\QuizApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manish.rajpurohit\\source\\repos\\QuizApp\\QuizApp\\QuizApp.csproj": {
+    "C:\\Users\\Manish Rajpurohit\\source\\repos\\QuizApp\\QuizApp\\QuizApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manish.rajpurohit\\source\\repos\\QuizApp\\QuizApp\\QuizApp.csproj",
+        "projectUniqueName": "C:\\Users\\Manish Rajpurohit\\source\\repos\\QuizApp\\QuizApp\\QuizApp.csproj",
         "projectName": "QuizApp",
-        "projectPath": "C:\\Users\\manish.rajpurohit\\source\\repos\\QuizApp\\QuizApp\\QuizApp.csproj",
-        "packagesPath": "C:\\Users\\manish.rajpurohit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manish.rajpurohit\\source\\repos\\QuizApp\\QuizApp\\obj\\",
+        "projectPath": "C:\\Users\\Manish Rajpurohit\\source\\repos\\QuizApp\\QuizApp\\QuizApp.csproj",
+        "packagesPath": "C:\\Users\\Manish Rajpurohit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manish Rajpurohit\\source\\repos\\QuizApp\\QuizApp\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\manish.rajpurohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Manish Rajpurohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,21 +38,49 @@
               "target": "Package",
               "version": "[1.1.1.3, )"
             },
+            "Xamarin.Android.Arch.Lifecycle.LiveData": {
+              "target": "Package",
+              "version": "[1.1.1.3, )"
+            },
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
             "Xamarin.AndroidX.AppCompat": {
               "target": "Package",
               "version": "[1.4.1, )"
             },
             "Xamarin.AndroidX.Lifecycle.LiveData": {
               "target": "Package",
-              "version": "[2.4.0.2, )"
+              "version": "[2.4.1, )"
+            },
+            "Xamarin.AndroidX.Lifecycle.LiveData": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.1, )"
             },
             "Xamarin.Google.Android.Material": {
               "target": "Package",
-              "version": "[1.0.0.1, )"
+              "version": "[1.5.0, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "runtime.any.System.Resources.ResourceManager": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "runtime.any.System.Resources.ResourceManager": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           }
         }

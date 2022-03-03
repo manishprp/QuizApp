@@ -15,6 +15,7 @@
         android:layout_width="130dp"
         android:layout_height="130dp"/>
     <TextView
+        android:id = "@+id/topicTextView"
         android:gravity="center"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -36,6 +37,7 @@
         android:layout_height="match_parent">
 
         <Button
+            android:id="@+id/startQuizButton"
             android:text="start quiz"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="50dp"

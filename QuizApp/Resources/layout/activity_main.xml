@@ -10,6 +10,8 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:elevation="4dp"
+        android:background="@color/colorPrimary"
+        android:theme="@style/AppTheme.ActionBarTheme"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"/>
     <TextView
@@ -61,12 +63,14 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                 android:id="@+id/geographyCardView"
                 android:layout_gravity="right"
                 app:cardElevation="4dp"
                 app:cardCornerRadius="4dp"
                 android:layout_width="147dp"
                 android:layout_height="141dp">
                 <LinearLayout
+                   
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -89,6 +93,7 @@
             </androidx.cardview.widget.CardView>
             <!-- Row 2-->
             <androidx.cardview.widget.CardView
+                 android:id="@+id/spaceCardView"
                 android:layout_marginTop="30dp"
                 android:layout_gravity="left"
                 app:cardElevation="4dp"
@@ -96,6 +101,7 @@
                 android:layout_width="147dp"
                 android:layout_height="141dp">
                 <LinearLayout
+                    
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -117,6 +123,7 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                 android:id="@+id/engineeringCardView"
                 android:layout_marginTop="30dp"
                 android:layout_gravity="right"
                 app:cardElevation="4dp"
@@ -146,6 +153,7 @@
             </androidx.cardview.widget.CardView>
             <!-- Row 3-->
             <androidx.cardview.widget.CardView
+                 android:id="@+id/programmingCardView"
                 android:layout_marginTop="30dp"
                 android:layout_gravity="left"
                 app:cardElevation="4dp"
@@ -174,6 +182,7 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                 android:id="@+id/businessCardView"
                 android:layout_marginTop="30dp"
                 android:layout_gravity="right"
                 app:cardElevation="4dp"
