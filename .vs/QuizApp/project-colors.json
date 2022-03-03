@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2e88d564-a4ea-4266-9a49-aac562418ba0": {
+      "ProjectGuid": "2e88d564-a4ea-4266-9a49-aac562418ba0",
+      "DisplayName": "QuizApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
