@@ -33,6 +33,7 @@
             android:layout_height="wrap_content">
             <!-- Row 1-->
             <androidx.cardview.widget.CardView
+                android:id="@+id/historyCardView"
                 android:layout_gravity="left"
                 app:cardElevation="4dp"
                 app:cardCornerRadius="4dp"

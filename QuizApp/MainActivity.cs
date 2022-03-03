@@ -1,7 +1,10 @@
 ﻿using Android.App;
+using Android.Content;
 using Android.OS;
 using AndroidX.AppCompat.App;
 using AndroidX.AppCompat.Widget;
+using AndroidX.CardView.Widget;
+using QuizApp.Resources.Activities;
 
 namespace QuizApp
 {
@@ -9,6 +12,7 @@ namespace QuizApp
     public class MainActivity : AppCompatActivity
     {
         Toolbar toolbar;
+        CardView card;
       
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -18,6 +22,15 @@ namespace QuizApp
             SetContentView(Resource.Layout.activity_main);
             toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
+            card = FindViewById<CardView>(Resource.Id.historyCardView);
+            card.Click += Card_Click;
+
+        }
+
+        private void Card_Click(object sender, System.EventArgs e)
+        {
+            Intent intent = new Intent(this, typeof(selectedTopicActivity));
+            StartActivity(intent);
         }
     }
 }

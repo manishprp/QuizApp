@@ -1,9 +1,9 @@
 QuizApp.MainActivity, QuizApp;crc64a8e878c6dedf0a89.MainActivity
 QuizApp.MainActivity;crc64a8e878c6dedf0a89.MainActivity
 quizapp.MainActivity;crc64a8e878c6dedf0a89.MainActivity
-QuizApp.Resources.Activities.activity2, QuizApp;crc64940b3de073381cef.activity2
-QuizApp.Resources.Activities.activity2;crc64940b3de073381cef.activity2
-quizapp.resources.activities.activity2;crc64940b3de073381cef.activity2
+QuizApp.Resources.Activities.selectedTopicActivity, QuizApp;crc64940b3de073381cef.selectedTopicActivity
+QuizApp.Resources.Activities.selectedTopicActivity;crc64940b3de073381cef.selectedTopicActivity
+quizapp.resources.activities.selectedTopicActivity;crc64940b3de073381cef.selectedTopicActivity
 QuizApp.Resources.Activities.splascActivity, QuizApp;crc64940b3de073381cef.splascActivity
 QuizApp.Resources.Activities.splascActivity;crc64940b3de073381cef.splascActivity
 quizapp.resources.activities.splascActivity;crc64940b3de073381cef.splascActivity
