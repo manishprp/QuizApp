@@ -37,7 +37,7 @@ namespace QuizApp.fragments
             // Use this to return your custom view for this Fragment
             View view = inflater.Inflate(Resource.Layout.completed, container, false);
             scoreTextView = (TextView)view.FindViewById(Resource.Id.scoreTextView);
-            remarksTextView=  (TextView)view.FindViewById(Resource.Id.scoreTextView);
+            remarksTextView=  (TextView)view.FindViewById(Resource.Id.remarksTextView);
             completeImage = (ImageView)view.FindViewById(Resource.Id.image);
             gohomeButton = (Button)view.FindViewById(Resource.Id.goHomeButton);
 
