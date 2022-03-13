@@ -11,6 +11,7 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
     <activity android:name="crc64a8e878c6dedf0a89.MainActivity" android:label="@string/app_name" android:theme="@style/AppTheme" />
+    <activity android:name="crc64940b3de073381cef.quizPageActivity" android:label="quizPageActivity" />
     <activity android:name="crc64940b3de073381cef.selectedTopicActivity" android:label="selectedTopicActivity" />
     <activity android:name="crc64940b3de073381cef.splascActivity" android:exported="true" android:label="@string/app_name" android:noHistory="true" android:theme="@style/AppTheme.Splash">
       <intent-filter>

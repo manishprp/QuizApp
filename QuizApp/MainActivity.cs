@@ -1,9 +1,12 @@
 ﻿using Android.App;
 using Android.Content;
 using Android.OS;
+using Android.Views;
 using AndroidX.AppCompat.App;
 using AndroidX.AppCompat.Widget;
 using AndroidX.CardView.Widget;
+using AndroidX.DrawerLayout.Widget;
+using Google.Android.Material.Navigation;
 using QuizApp.Resources.Activities;
 
 namespace QuizApp
@@ -12,6 +15,8 @@ namespace QuizApp
     public class MainActivity : AppCompatActivity
     {
         Toolbar toolbar;
+        DrawerLayout drawerLayout;
+        NavigationView navigationView;
         CardView historyCard, geographyCard, spaceCard, engineeringCard, businessCard, programmingCard;   
        
         protected override void OnCreate(Bundle savedInstanceState)
@@ -34,6 +39,8 @@ namespace QuizApp
        
         public void uiReferences()
         {
+            drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawerLayout);
+            navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
             toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             historyCard = FindViewById<CardView>(Resource.Id.historyCardView);
             geographyCard = FindViewById<CardView>(Resource.Id.geographyCardView);
@@ -51,46 +58,89 @@ namespace QuizApp
             engineeringCard.Click += EngineeringCard_Click;
             businessCard.Click += BusinessCard_Click;
             programmingCard.Click += ProgrammingCard_Click;
+            navigationView.NavigationItemSelected += NavigationView_NavigationItemSelected;
         }
+
+        private void NavigationView_NavigationItemSelected(object sender, NavigationView.NavigationItemSelectedEventArgs e)
+        {
+            if(e.MenuItem.ItemId==Resource.Id.navHistory)
+            {
+                callActivityAndPassTopic("History");
+                drawerLayout.CloseDrawers();
+            }
+            else if (e.MenuItem.ItemId == Resource.Id.navGeography)
+            {
+                callActivityAndPassTopic("Geography");
+                drawerLayout.CloseDrawers();
+            }
+            else if (e.MenuItem.ItemId == Resource.Id.navBusiness)
+            {
+                callActivityAndPassTopic("Business");
+                drawerLayout.CloseDrawers();
+            }
+            else if(e.MenuItem.ItemId == Resource.Id.navEngineering)
+            {
+                callActivityAndPassTopic("Engineering");
+                drawerLayout.CloseDrawers();
+            }
+           else if (e.MenuItem.ItemId == Resource.Id.navSpace)
+            {
+                callActivityAndPassTopic("Space");
+                drawerLayout.CloseDrawers();
+            }
+            else if (e.MenuItem.ItemId == Resource.Id.navProgramming)
+            {
+                callActivityAndPassTopic("Programming");
+                drawerLayout.CloseDrawers();
+
+            }
+        }
+
         private void HistoryCard_Click(object sender, System.EventArgs e)
         {
-            Intent intent = new Intent(this, typeof(selectedTopicActivity));
-            intent.PutExtra("topic", "History");
-            StartActivity(intent);
+            callActivityAndPassTopic("History");
         }
         private void ProgrammingCard_Click(object sender, System.EventArgs e)
         {
-            Intent intent = new Intent(this, typeof(selectedTopicActivity));
-            intent.PutExtra("topic","Programming");
-            StartActivity(intent);
+            callActivityAndPassTopic("Programming");
         }
 
         private void BusinessCard_Click(object sender, System.EventArgs e)
         {
-            Intent intent = new Intent(this, typeof(selectedTopicActivity));
-            intent.PutExtra("topic", "Business");
-            StartActivity(intent);
+            callActivityAndPassTopic("Business");
         }
 
         private void EngineeringCard_Click(object sender, System.EventArgs e)
         {
-            Intent intent = new Intent(this, typeof(selectedTopicActivity));
-            intent.PutExtra("topic", "Engineering");
-            StartActivity(intent);
+            callActivityAndPassTopic("Engineering");
         }
 
         private void SpaceCard_Click(object sender, System.EventArgs e)
         {
-            Intent intent = new Intent(this, typeof(selectedTopicActivity));
-            intent.PutExtra("topic", "Space");
-            StartActivity(intent);
+            callActivityAndPassTopic("Space");
         }
 
         private void GeographyCard_Click(object sender, System.EventArgs e)
         {
+            callActivityAndPassTopic("Geography");
+        }
+
+        public void callActivityAndPassTopic(string topicTitle)
+        {
             Intent intent = new Intent(this, typeof(selectedTopicActivity));
-            intent.PutExtra("topic", "Geography");
+            intent.PutExtra("topic", topicTitle);
             StartActivity(intent);
+        }
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch(item.ItemId)
+            {
+                case Android.Resource.Id.Home:
+                    drawerLayout.OpenDrawer((int)GravityFlags.Left);
+                    return true;
+                default: return base.OnOptionsItemSelected(item);
+            }
+           
         }
     }
 }

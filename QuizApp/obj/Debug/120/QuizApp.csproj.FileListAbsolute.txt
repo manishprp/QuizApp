@@ -425,6 +425,7 @@ C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\bi
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\bin\base.zip
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\bin\com.companyname.quizapp.aab
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\bin\com.companyname.quizapp.apks
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\layout\quiz_page.xml
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\layout\activity_main.xml
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\values\colors.xml
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\values\ic_launcher_background.xml
@@ -459,6 +460,17 @@ C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\drawab
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\drawable\roundbutton.xml
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\layout\selected_topic.xml
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\drawable\menuaction.xml
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\drawable\outline_business.xml
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\drawable\outline_history.xml
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\menu\navmenu.xml
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\drawable\outline_engineering.xml
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\drawable\outline_geography.xml
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\drawable\outline_programming.xml
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\layout\menuheader.xml
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\drawable\quizappimage.png
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\layout\include_main.xml
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\drawable\outline_arrowback.xml
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\drawable\outline_space.xml
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\uploadflags.txt
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\resolvedassemblies.hash
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\assets\Java.Interop.dll
@@ -647,6 +659,7 @@ C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\sr
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\src\com\google\android\material\snackbar\Snackbar_SnackbarActionClickImplementor.java
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\src\crc64396a3fe5f8138e3f\CustomTabsServiceConnectionImpl.java
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\src\crc64396a3fe5f8138e3f\KeepAliveService.java
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\src\crc64940b3de073381cef\quizPageActivity.java
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\src\crc64940b3de073381cef\selectedTopicActivity.java
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\src\crc64940b3de073381cef\splascActivity.java
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\src\crc64a0e0a82d0db9a07d\AccelerometerListener.java
@@ -773,3 +786,12 @@ C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\stamp\_Con
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\layout\correct.xml
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\drawable\roundbutton_green.xml
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\src\crc64f4027cad0a0e1467\correctFragment.java
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\layout\wrong.xml
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\drawable\wrong.png
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\src\crc64f4027cad0a0e1467\incorrectFragment.java
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\layout\completed.xml
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\res\drawable\sad.png
+C:\Users\Manish Rajpurohit\source\repos\QuizApp\QuizApp\obj\Debug\120\android\src\crc64f4027cad0a0e1467\completedFragment.java
